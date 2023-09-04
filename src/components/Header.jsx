@@ -10,10 +10,10 @@ const Header = () => {
             <img className="header__container-logo" src={LOGO} alt="logo.png"/>
         </div>
         <nav className="header__nav">
-          <BTN_HEADER content={'Inicio'}/>
-          <BTN_HEADER content={'Cafe'}/>
-          <BTN_HEADER content={'Sobre Nosotros'}/>
-          <BTN_HEADER content={'Delivery'}/>
+          <BTN_HEADER content={'Inicio'} href={'#inicio'} />
+          <BTN_HEADER content={'Cafe'} href={'#cafe'} />
+          <BTN_HEADER content={'Sobre Nosotros'} href={'#sobre nosotros'} />
+          <BTN_HEADER content={'Delivery'} href={'#delivery'} />
         </nav>
         <div className="header__container-login">
           <i className="bi bi-person-circle"></i>
