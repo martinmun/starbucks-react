@@ -1,9 +1,11 @@
 import React from 'react'
 
-const BtnHeader = () => {
+const BtnHeader = (props) => {
   return (
-    <a className="header__nav-link" href="#">INICIO</a>
-  )
-}
+    <a className="header__nav-link" href="#">
+    {props.content}
+    </a>
+  );
+};
 
 export default BtnHeader;
